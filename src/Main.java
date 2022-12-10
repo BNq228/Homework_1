@@ -52,10 +52,10 @@ public class Main {
         var openHours = 640;
         var employeeHours = 8;
         var totalEmployee = openHours / employeeHours;
-        System.out.println("Всего работников в компании " + totalEmployee + " человек");
+        System.out.println("Всего работников в компании " + totalEmployee + " человек!");
         var moreEmployee = 94;
         var openingHours = moreEmployee + totalEmployee;
-        System.out.println("В компании работает " + openingHours + " человек");
+        System.out.println("В компании работает " + openingHours + " человек!");
         var allHours = openingHours * employeeHours;
         System.out.println("Если в компании работает " + openingHours + " человек, то всего " + allHours + " часов работы может быть поделено между сотрудниками");
     }
